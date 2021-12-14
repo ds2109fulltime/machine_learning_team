@@ -1,4 +1,4 @@
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, roc_auc_score
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
 
 def regression_errors(y, y_pred):
