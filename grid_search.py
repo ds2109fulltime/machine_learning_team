@@ -1,7 +1,7 @@
 def grid_search(X_train, y_train):
 
-    '''Esta función realiza un grid search con RandomForestClassifier, LogisticRegression y SVC 
-    para hallar los mejores parámetros a utilizar. Se ejecuta después de train_test_split.'''
+    '''This function performs a grid search with RandomForestClassifier, LogisticRegression and SVC
+    to find the best parameters after making train_test_split.'''
 
     from sklearn.pipeline import Pipeline
     from sklearn.linear_model import LogisticRegression

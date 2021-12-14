@@ -1,5 +1,5 @@
 def models(X_train, X_test, y_train, y_test):
-    '''Esta función compara e imprime resultados de varios modelos de ML tras hacer train_test_split()'''
+    '''This function compares and prints results of various ML models after doing train_test_split.'''
 
     from sklearn.linear_model import LogisticRegression
     from sklearn.naive_bayes import GaussianNB
