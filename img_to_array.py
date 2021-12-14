@@ -20,7 +20,7 @@ def img_to_array(folder_in, format, max_elem=7000):
 
 
     st = time.time()
-    cwdinput = folder_in + '\*.{format}'
+    cwdinput = folder_in + '\*.' + format
     img_input_dir = cwdinput
     files = glob(img_input_dir)
     print(len(files))
